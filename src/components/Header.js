@@ -1,4 +1,4 @@
-import { Search, Bell, MessageSquare, ChevronDown } from 'lucide-react';
+import { Bell, MessageSquare, ChevronDown } from 'lucide-react';
 
 export default function Header() {
   return (
@@ -33,32 +33,7 @@ export default function Header() {
               {/* Placeholder for user avatar */}
               <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="User" />
             </div>
-            <button className="p-2 text-gray-500 hover:text-gray-700">
-              <MessageSquare className="w-5 h-5" />
-            </button>
           </div>
-        </div>
-      </div>
-
-      {/* Secondary Navigation */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 overflow-x-auto">
-        <div className="flex items-center gap-2 text-sm whitespace-nowrap">
-          <button className="px-4 py-1.5 bg-teal-50 text-teal-700 font-medium rounded-md border border-teal-100">
-            Frontend Development
-          </button>
-          <button className="px-4 py-1.5 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md border border-transparent hover:border-gray-200">
-            Product Design
-          </button>
-          <button className="px-4 py-1.5 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md border border-transparent hover:border-gray-200">
-            Backend Development
-          </button>
-          <button className="px-4 py-1.5 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md border border-transparent hover:border-gray-200">
-            Data Analysis
-          </button>
-          <div className="flex-1"></div>
-          <button className="px-4 py-1.5 bg-gray-100 text-gray-700 font-medium rounded-md hover:bg-gray-200 transition">
-            Save Career Path
-          </button>
         </div>
       </div>
     </header>
